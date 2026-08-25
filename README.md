@@ -10,3 +10,13 @@
 - L'utilisateur essaie de deviner le nombre
 - À chaque fois, on lui dit si son essai est trop petit, trop grand ou s'il a gagné
 - Il a 10 essais pour deviner correctement. Sinon il a perdu.
+
+
+## 
+Pour générer un nombre aléatoire entre min et max 
+```
+    Random random = new Random();
+    return random.Next(min, max);
+```
+
+Pour convertir une chaîne de caractères (string) en entier (int): `int.Parse(nbEntier);`
