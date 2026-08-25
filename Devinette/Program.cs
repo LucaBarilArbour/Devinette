@@ -32,7 +32,7 @@
             else
             {
                 Console.WriteLine("Tu a bien deviner");
-                break;
+                return;
             }
             ;
         } while (nbEssai <= 10);
